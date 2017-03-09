@@ -1,0 +1,16 @@
+sonata_admin:
+    templates:
+        layout:     AxiomaAdminBundle::custom_layout.html.twig
+
+sonata_block:
+    default_contexts: [cms]
+    blocks:
+        # Enable the SonataAdminBundle block
+        sonata.admin.block.admin_list:
+            contexts:   [admin]
+        sonata.user.block.menu:    # used to display the menu in profile pages
+            contexts:   [admin]
+        sonata.user.block.account: # used to display menu option (login option)
+            contexts:   [admin]
+        sonata.admin.block.search_result:
+            contexts: [admin]

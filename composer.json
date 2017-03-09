@@ -19,7 +19,10 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../../_axioma/AdminBundle"
+            "url": "../../_axioma/AdminBundle",
+            "options": {
+                "symlink": false
+            }
         }
     ],
     "require": {
@@ -35,7 +38,8 @@
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "^2.0",
         "twig/twig": "^1.0||^2.0",
-        "axioma/admin-bundle": "dev-master"
+        "axioma/admin-bundle": "dev-master",
+        "sonata-project/doctrine-orm-admin-bundle": "~3.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
