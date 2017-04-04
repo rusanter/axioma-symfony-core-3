@@ -27,6 +27,7 @@ class AppKernel extends Kernel
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new \Sonata\AdminBundle\SonataAdminBundle(),
             new Axioma\AdminBundle\AxiomaAdminBundle(),
+            new Axioma\SettingsBundle\SettingsBundle(),
 
             new AppBundle\AppBundle(),
         ];

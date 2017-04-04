@@ -18,11 +18,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../../_axioma/AdminBundle",
-            "options": {
-                "symlink": false
-            }
+            "type": "composer",
+            "url": "http://packages.axioma.lv"
         }
     ],
     "require": {
@@ -40,7 +37,8 @@
         "twig/twig": "^1.0||^2.0",
         "axioma/admin-bundle": "dev-master",
         "sonata-project/doctrine-orm-admin-bundle": "~3.0",
-        "doctrine/doctrine-fixtures-bundle": "~2.3"
+        "doctrine/doctrine-fixtures-bundle": "~2.3",
+        "axioma/settings-bundle": "~3.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
