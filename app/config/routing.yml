@@ -10,3 +10,7 @@ _sonata_admin:
     resource: .
     type: sonata_admin
     prefix: /admin
+
+translation:
+    resource: "@AxiomaTranslationBundle/Resources/config/routing.yml"
+    prefix:   /admin

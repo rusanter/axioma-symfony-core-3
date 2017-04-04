@@ -38,7 +38,8 @@
         "axioma/admin-bundle": "dev-master",
         "sonata-project/doctrine-orm-admin-bundle": "~3.0",
         "doctrine/doctrine-fixtures-bundle": "~2.3",
-        "axioma/settings-bundle": "~3.2"
+        "axioma/settings-bundle": "~3.2",
+        "axioma/translation-bundle": "^3.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

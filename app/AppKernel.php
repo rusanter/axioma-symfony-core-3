@@ -29,6 +29,9 @@ class AppKernel extends Kernel
             new Axioma\AdminBundle\AxiomaAdminBundle(),
             new Axioma\SettingsBundle\SettingsBundle(),
 
+            new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
+            new Axioma\TranslationBundle\AxiomaTranslationBundle(),
+
             new AppBundle\AppBundle(),
         ];
 
